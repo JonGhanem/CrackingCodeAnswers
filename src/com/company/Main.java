@@ -8,15 +8,13 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        LinkedListNode head = new LinkedListNode();
-        head.data = 7;
+        LinkedListNode head = new LinkedListNode(7);
         head.next.data = 1;
-        head.next.next.data = 6;
+        head.next.next = new LinkedListNode(6);
 
-        LinkedListNode n2 = null;
-        n2.data = 5;
+        LinkedListNode n2 = new LinkedListNode(5);
         n2.next.data = 9;
-        n2.next.next.data = 2;
+        n2.next.next = new LinkedListNode(2);
 
         new SumLists().SumTwoLinkedLists(head, n2);
     }
