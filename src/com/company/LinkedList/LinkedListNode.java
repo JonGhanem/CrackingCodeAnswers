@@ -1,6 +1,6 @@
 package com.company.LinkedList;
 
 public class LinkedListNode {
-    int data;
-    LinkedListNode next;
+    public int data;
+    public LinkedListNode next;
 }

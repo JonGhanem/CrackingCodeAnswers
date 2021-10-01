@@ -1,11 +1,26 @@
 package com.company;
+import com.company.LinkedList.LinkedListNode;
+import com.company.LinkedList.SumLists;
 import com.company.Strings.*;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+        LinkedListNode head = new LinkedListNode();
+        head.data = 7;
+        head.next.data = 1;
+        head.next.next.data = 6;
+
+        LinkedListNode n2 = null;
+        n2.data = 5;
+        n2.next.data = 9;
+        n2.next.next.data = 2;
+
+        new SumLists().SumTwoLinkedLists(head, n2);
     }
+
 	
 	    private static void arrayAndStringProblems() {
         //1 . check if a word contains duplicated charters
