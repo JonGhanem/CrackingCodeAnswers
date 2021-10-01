@@ -9,6 +9,6 @@ public class LinkedListNode {
     public LinkedListNode(int d)
     {
         data = d;
-        next = new LinkedListNode();
+        next = null;
     }
 }
