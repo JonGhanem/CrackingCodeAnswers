@@ -15,8 +15,9 @@ public class Main {
         LinkedListNode n2 = new LinkedListNode(5);
         n2.next = new LinkedListNode(9);
         n2.next.next = new LinkedListNode(2);
-
         new SumLists().SumTwoLinkedLists(head, n2);
+
+
     }
 
 	
